@@ -43,8 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array.cs" />
+    <Compile Include="DBClass.cs" />
+    <Compile Include="Emp.cs" />
+    <Compile Include="Forloop.cs" />
+    <Compile Include="Ifelse.cs" />
+    <Compile Include="InheritanceClass.cs" />
+    <Compile Include="List.cs" />
+    <Compile Include="Odd.cs" />
+    <Compile Include="PassByReference.cs" />
+    <Compile Include="PassByValue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenceandValueType.cs" />
+    <Compile Include="SubString.cs" />
+    <Compile Include="SwitchCase.cs" />
+    <Compile Include="Testing\UnitTesting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
