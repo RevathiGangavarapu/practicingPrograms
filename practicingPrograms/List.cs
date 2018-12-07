@@ -8,27 +8,27 @@ namespace practicingPrograms
 {
     class List1
     {
-        public List<float> grades = new List<float>();
-
-        public List1()
-        {
+        public List1(float g)
+        {     
+            grades.Add(g);
         }
 
-        public List1(float Grade)
-        {
-                  
-            grades.Add(Grade);
-           
-        }
+        public List<float> grades = new List<float>() { 1,2,3,4,5};
+        //{ 1, 2, 3 }
         public void Write()
         {
+            float sum = 0;
             foreach (var f in grades)
             {
-                Console.WriteLine(f);
+                sum = sum + f;
+               Console.WriteLine(f);
+               
             }
+            Console.Write("Total Sum of List: " + sum); 
+            Console.WriteLine("count of list" + grades.Count);
             Console.ReadLine();
+            
         }
-
 
     }
 }

@@ -6,39 +6,51 @@ using System.Threading.Tasks;
 
 namespace practicingPrograms
 {
-    class InheritanceClass: Array
+    public class InheritanceClass : Array
     {
         public void InheritingArrayofClass()
         {
-            
+
             Console.WriteLine(x);
             //Console.WriteLine(this.Marks());
             //int y = 1;
             //y = y + x;
             this.Marks();
             //y = y + x;
-            
+
         }
     }
 
-    public class FulltimeEmployee
+
+    public class Employee
     {
-        public string firstname;
-        public string lastname;
-        public float yearlysalary;
+        public string firstname = "r";
 
-        public string EmployeeFullName()
+        protected string lastname;
+
+        public string Fullname()
         {
-           return (firstname + " " + lastname);
+            return(firstname + " " + lastname);
         }
+
     }
 
-    public class ParttimeEmployee: FulltimeEmployee
+    class FulltimeEmployee : Employee
     {
-        public float hourlysalary;
-        public void Name()
+         double monthlypay;
+         int xx = 10;
+        
+        public void Employeemethod()
         {
-            Console.WriteLine(this.EmployeeFullName());
+            Console.WriteLine(lastname);
+            Console.WriteLine(xx);
+            Console.WriteLine(Fullname());
         }
     }
+
+    class ParttimeEmployee : Employee
+    {
+            public double HourlyPay;
+    }
+    
 }

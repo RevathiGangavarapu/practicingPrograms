@@ -14,6 +14,7 @@ namespace practicingPrograms
             {
                 Console.WriteLine(i);
             }
+            
         }
 
         public void ForLoopExample1()
@@ -22,8 +23,25 @@ namespace practicingPrograms
             {
                 for (int j = 1; j <= 10; j++)
                 {
+                    if (i == 3 && j == 5) { }
+
                     Console.WriteLine("{0} * {1} = {2}", i, j, i * j);
+
+                   
                 }
+            }
+
+            List<int> intlist = new List<int> { 1, 2, 3, 4, 5 };
+
+            for (int i = 0; i < intlist.Count; i++)
+            {
+                Console.WriteLine(intlist[i]);
+            }
+
+            foreach (var item in intlist)
+            {
+
+                Console.WriteLine(item);
             }
         }
 

@@ -44,15 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DBClass.cs" />
     <Compile Include="Emp.cs" />
+    <Compile Include="EmpDem.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="ExceptionDemo.cs" />
     <Compile Include="Forloop.cs" />
     <Compile Include="Ifelse.cs" />
     <Compile Include="InheritanceClass.cs" />
     <Compile Include="List.cs" />
+    <Compile Include="MethodOverLoad.cs" />
     <Compile Include="Odd.cs" />
     <Compile Include="PassByReference.cs" />
     <Compile Include="PassByValue.cs" />
+    <Compile Include="PassByValueDemo.cs" />
+    <Compile Include="PolymorphismDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceandValueType.cs" />

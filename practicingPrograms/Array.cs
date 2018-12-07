@@ -14,7 +14,7 @@ namespace practicingPrograms
         }
         public void ArrayofMetodName()
         {
-            int[] array1 = new int[3];// array1 is variable name.
+            int[] array1 = new int[5];// array1 is variable name.
             ArrayofMetodName2(array1);
         }
 
@@ -55,18 +55,40 @@ namespace practicingPrograms
 
 
             double[] doublevalue = new double[5] { 77.7, 67.7, 9.67, 7.6, 6.7};
-            for (int i = 0; i <= doublevalue.Length-1; i++)
-            {
-                Console.WriteLine(doublevalue[i]);
-            }
+                for (int i = 0; i <= doublevalue.Length-1; i++)
+                {
+                    Console.WriteLine(doublevalue[i]);
+                }
 
-            foreach(double a in doublevalue)
-            {
-                Console.WriteLine("foreach example: {0}", a);
-            }
+                foreach(double a in doublevalue)
+                {
+                    Console.WriteLine("foreach example: {0}", a);
+                }
 
 
             
         }
     }
+
+    public class Example
+    {
+       
+        public void Methodname1()
+        {
+              int[] array4 = new int[] { 120, 56, 45, 99, 100 };
+             int maxvalue;
+
+            maxvalue = array4[0];
+            for(int i = 1; i < array4.Length; i++)
+            {
+                if (array4[i] > maxvalue) 
+                {
+                    maxvalue = array4[i];
+                    
+                }
+               
+            }
+            Console.WriteLine("array of maximum value: {0}", maxvalue);
+        }
+     }
 }

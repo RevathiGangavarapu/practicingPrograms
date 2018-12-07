@@ -10,6 +10,8 @@ namespace practicingPrograms
     {
         public void SwitchCaseExample()
         {
+            Employee e = new PEmployye();
+           
             int a = 10; int b = 20; string Value = "Add";
             switch (Value)
             {
