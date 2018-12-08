@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace practicingPrograms
 {
-    class List1
+    public class List
     {
         public List1(float g)
         {     
